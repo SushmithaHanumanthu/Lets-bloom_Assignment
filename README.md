@@ -5,10 +5,8 @@ We can enhance this code by adding proper error handling, input validation, and 
 Step wise explaination-
 Implementations for each end-points:
 
-GET /api/books: Retrieves all books from the database and returns them in the response.
+1. GET /api/books: Retrieves all books from the database and returns them in the response.
 
-POST /api/books: Creates a new book with the provided information and saves it in the database.
+2. POST /api/books: Creates a new book with the provided information and saves it in the database.
 
-PUT /api/books/{id}: Updates the book with the given ID using the provided information.
-
-DELETE /api/books/{id}: Deletes the book with the given ID from the database.
+3. PUT /api/books/{id}: Updates the book with the given ID using the provided information.
